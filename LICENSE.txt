@@ -1,0 +1,22 @@
+Delfin BLE SDK - Licensing overview
+Copyright (c) 2026 Delfin Technologies Ltd (business ID 1514448-8)
+
+This release kit contains components that are licensed differently:
+
+1. Proprietary - End User License Agreement (EULA.txt)
+     lib/Delfin.Ble.Driver.dll
+     tools/  (Delfin BLE device simulator, compiled)
+
+2. MIT License (LICENSE-MIT.txt)
+     src/Delfin.Ble.Sdk/        SDK interfaces, models and events (source)
+     lib/Delfin.Ble.Sdk.dll     compiled from the source above
+     src/Delfin.Ble.Demo/, src/Delfin.Ble.WinFormsDemo/,
+     src/Delfin.Ble.WinFormsDemo.VB/, src/Delfin.Ble.AvaloniaDemo/
+                                sample applications (source)
+
+3. Third-party components (THIRD-PARTY-NOTICES.txt)
+     System.IO.Ports, System.Management and related runtime files in lib/
+     and tools/, plus packages referenced by the Avalonia demo.
+     These remain under their own licenses.
+
+By installing or using the Driver or the simulator you accept EULA.txt.

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Delfin.Ble.WinFormsDemoVB</RootNamespace>
+    <StartupObject>Sub Main</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Delfin.Ble.Sdk">
+      <HintPath>..\..\lib\Delfin.Ble.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Delfin.Ble.Driver">
+      <HintPath>..\..\lib\Delfin.Ble.Driver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="9.0.0" />
+  </ItemGroup>
+</Project>

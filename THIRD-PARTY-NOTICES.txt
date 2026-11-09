@@ -1,0 +1,53 @@
+Third-party notices - Delfin BLE SDK
+
+This kit redistributes or references the third-party components listed below.
+They remain under their own licenses; Delfin Technologies Ltd does not
+license them to you.
+
+============================================================================
+Redistributed in this kit (lib/ and tools/, including runtimes/ subfolders)
+============================================================================
+
+  System.IO.Ports
+  System.Management
+    Copyright (c) .NET Foundation and Contributors
+    (c) Microsoft Corporation. All rights reserved.
+    License: MIT  -  https://github.com/dotnet/runtime
+
+============================================================================
+Referenced from NuGet by the Avalonia demo (NOT redistributed in this kit;
+restored from NuGet when you build the demo)
+============================================================================
+
+  Avalonia
+  Avalonia.Desktop
+  Avalonia.Themes.Fluent
+  Avalonia.Fonts.Inter
+  Avalonia.Controls.DataGrid
+    Copyright 2013-2024 (c) The AvaloniaUI Project
+    License: MIT  -  https://github.com/AvaloniaUI/Avalonia
+
+  Each package is distributed with its own license terms on NuGet.org; those
+  terms apply when you restore and use the packages.
+
+============================================================================
+MIT License text (applies to the redistributed components listed above)
+============================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,97 @@
+END USER LICENSE AGREEMENT FOR DELFIN BLE DRIVER
+
+THANK YOU FOR CHOOSING US! PLEASE BE SURE TO REVIEW THESE TERMS AND CONDITIONS CAREFULLY BEFORE ACCESSING OR USING THE DELFIN BLE DRIVER. BY INSTALLING, ACCESSING OR USING THE DELFIN BLE DRIVER YOU INDICATE YOUR ACCEPTANCE OF THESE TERMS AND CONDITIONS. IF YOU DO NOT ACCEPT THESE TERMS AND CONDITIONS, YOU ARE NOT PERMITTED TO USE THE DELFIN BLE DRIVER.
+
+1 THE SOFTWARE
+
+The Delfin BLE Driver (Delfin.Ble.Driver.dll) and the Delfin BLE device simulator tool (the "tools" folder of the release kit) developed by Delfin Technologies Ltd (business ID: 1514448-8) ("Licensor") are software components that enable applications to communicate with Delfin instruments over Bluetooth Low Energy using a BleuIO USB dongle ("Software").
+
+The open-source Delfin BLE SDK interfaces, the sample applications and their source code that are delivered together with the Software are not part of the Software. They are licensed separately under the MIT License (see LICENSE.txt and LICENSE-MIT.txt).
+
+This End User License Agreement for Delfin BLE Driver ("EULA") describes the terms and conditions pursuant to which you as Licensor's customer ("You") are permitted to use the Software.
+
+The Software licenced to You under this EULA also includes related documentation (whether printed or electronic) and any update or upgrade made to them from time to time, all of which Licensor makes available to You pursuant to this EULA. The Software is made available to You in object-code form only.
+
+You agree that the Software is always provided in accordance with the standard features and functionalities Licensor from time to time makes generally available to the users of the Software. Licensor may in its discretion release new versions of the Software. You are solely responsible for the costs for downloading any new versions over the internet.
+
+2 LICENCE
+
+Provided that You comply at all times with this EULA, Licensor grants You a limited, non-exclusive and non-transferable (except as permitted below) licence to use the Software in connection with the instruments provided by Licensor.
+
+Within the scope of the licence, You are permitted to:
+
+- download and install a copy of the Software onto and use it on any number of devices which are under Your control and meet the specifications given by Licensor; and
+
+- integrate the Software into applications that You develop for use with the instruments provided by Licensor ("Your Applications"), and distribute the Software, unmodified, solely as a part of Your Applications to Your own customers for use with the instruments provided by Licensor.
+
+The licence granted to You above does not, however, permit You to:
+
+a) use the Software for any other commercial or non-commercial purpose than as indicated by Licensor from time to time;
+
+b) modify, adapt, translate, rent, lease, resell, distribute (except as expressly permitted above) or create derivative works based upon the Software and/or related files or any part thereof (except to the limited extent permitted under mandatory applicable law), or use the Software to provide services to or permit the use of the Software by third parties (except as part of Your Applications as expressly permitted above);
+
+c) decompile, reverse engineer, disassemble, or otherwise attempt to derive the source code from the object code or reduce the Software and/or related files in whole or in part (except to the limited extent permitted under mandatory applicable law); and/or
+
+d) use the documentation relating to the Software for any purpose other than to support Your use of the Software or for Your personal instruction or purposes reasonably incidental thereto.
+
+3 USE OF THE SOFTWARE
+
+You are responsible for ensuring that access to Your devices and Your Applications is restricted so that no unauthorized third party gains access to the Software or to the measurement data processed with it.
+
+You are responsible for any use of the Software that occurs through Your devices or Your Applications regardless of the identity of the user. You must notify Licensor immediately if there is a reason to believe that the Software has been accessed or used by an unauthorized third party.
+
+You are responsible for obtaining and maintaining all necessary accounts, operating systems, devices, software, and data connections required for You to use the Software. Licensor agrees to inform the general requirements for the foregoing, and also if these change at any point. You accept that Licensor is not obligated to provide the Software on platforms or systems not supported by Licensor from time to time.
+
+You agree not to use the Software or any part of it for any illegal purposes or in violation of any relevant laws or regulations applicable from time to time in the country in which You use the Software.
+
+4 DATA PROCESSING
+
+In connection with the provision of the Software, Licensor may receive and process certain personal data relating to You. For more information on what types of personal data Licensor processes and for what purposes, please see Licensor's Privacy Notice, which is accessible at Licensor's website. At the time of documenting this EULA, such Privacy Notice may be found at https://delfintech.com/privacy-notice/.
+
+By using the Software, You agree that Licensor may process Your personal data as described in the Privacy Notice.
+
+The Software functions on Your local computer. Licensor will have no connection or access to the measurement data processed by the Software as a result of Your use of the Software. You acknowledge and agree that Licensor will not have control over the security of Your local computer and thereby You shall be solely responsible for ensuring appropriate and sufficient security of the measurement data processed by the Software.
+
+5 TERM AND TERMINATION
+
+The right to use the Software granted to You pursuant to this EULA commences on Your acceptance of this EULA and continues indefinitely thereafter, provided that You use the Software in compliance with this EULA.
+
+You may terminate this EULA at any time by deleting the Software and its documentation from all devices on which the Software is installed and from Your Applications. This EULA will also terminate if You fail to comply with its terms.
+
+Upon termination of this EULA, You must cease using the Software and its documentation and delete all of their copies from all devices and from Your Applications. You agree that You are not entitled to any refund from Licensor because of the termination unless such entitlement is afforded under applicable mandatory law.
+
+6 INTELLECTUAL PROPERTY RIGHTS
+
+Licensor and/or its licensors own all rights, title and interest (including all intellectual property rights) in and to the Software (including its look and feel) and the related manuals and other documentation, and any subsequent amendments, modifications, enhancements, updates and upgrades made thereto, supplied or made available to You under this EULA.
+
+You understand that no rights or licenses are granted, transferred or assigned to You under this EULA other than the limited rights to use the Software pursuant to this EULA. Licensor and/or its licensors reserve all rights not expressly granted to You hereunder.
+
+7 THIRD PARTY COMPONENTS
+
+Any components of a third party are solely subject to the standard terms and conditions of the relevant third party, as amended from time to time. Licensor shall have no responsibilities or liabilities in relation to any components of any third party. The third-party components delivered together with the Software, and the terms that apply to them, are listed in THIRD-PARTY-NOTICES.txt.
+
+The operation of the Software requires Microsoft .NET components which You are required to install on Your computer. You have accepted the standard terms and conditions of Microsoft in connection with the installation of such components.
+
+8 WARRANTIES
+
+YOU AGREE THAT THE DATA MADE AVAILABLE TO YOU THROUGH THE USE OF THE SOFTWARE IS FOR YOUR CONVENIENCE ONLY AND THAT LICENSOR GIVES NO WARRANTIES AS TO THE ACCURACY, CORRECTNESS, RELIABILITY OR USABILITY OF THE DATA.
+
+TO THE EXTENT NOT OTHERWISE PROVIDED IN THIS EULA, THE SOFTWARE IS ALWAYS PROVIDED TO YOU "AS IS" AND "AS AVAILABLE". LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OR USE OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE OR THAT THE SOFTWARE CAN BE USED IN COMBINATION WITH ANY THIRD-PARTY SOFTWARE, DEVICES OR OTHER EQUIPMENT. TO THE EXTENT PERMITTED BY LAW, LICENSOR DISCLAIMS AND EXCLUDES ALL WARRANTIES, REPRESENTATIONS, CONDITIONS AND OTHER TERMS OF ANY KIND, EXPRESS OR IMPLIED AND WHETHER ARISING BY STATUTE, OPERATION OF LAW OR OTHERWISE, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR THE ABILITY TO USE THE SOFTWARE WITH ANY OTHER PRODUCTS OR SERVICES.
+
+9 INDEMNITY AND LIMITATIONS OF LIABILITY
+
+YOU AGREE TO DEFEND LICENSOR AND KEEP LICENSOR FULLY AND EFFECTIVELY INDEMNIFIED AGAINST ANY AND ALL CLAIMS, DEMANDS, ACTIONS, DAMAGES, LOSSES, EXPENSES AND LIABILITIES WHICH LICENSOR MAY SUSTAIN OR INCUR, OR WHICH MAY BE BROUGHT OR ESTABLISHED AGAINST IT BY ANY PERSON AND WHICH IN ANY CASE ARISE OUT OF OR IN RELATION TO YOUR USE OF THE SOFTWARE IN VIOLATION OF THIS EULA OR THE APPLICABLE LAWS.
+
+EXCEPT IN RESPECT OF INJURY OR DEATH OF ANY PERSON OR ANY OTHER LIABILITY WHICH CANNOT BE LIMITED OR EXCLUDED BY APPLICABLE LAW (FOR WHICH NO LIMIT APPLIES), LICENSOR'S AGGREGATE LIABILITY UNDER THIS EULA WILL IN NO EVENT EXCEED THE TOTAL AMOUNT OF THE FEES PAID BY YOU TO LICENSOR IN RELATION TO THE SOFTWARE.
+
+LICENSOR WILL IN NO EVENT BE LIABLE TO YOU FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, LOSS OF REVENUE OR OTHER COMMERCIAL OR ECONOMICAL LOSS, LOSS OF GOODWILL, LOSS OR DAMAGE TO REPUTATION, LOSS OF CONTRACTS OR CUSTOMERS, LOSS OF ANTICIPATED SAVINGS, LOSS, CORRUPTION OR DESTRUCTION OF DATA OR PROGRAMS) AND WHETHER ANY OF THE FOREGOING ARISE IN CONTRACT, TORT OR OTHERWISE AND EVEN IF LICENSOR HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE.
+
+10 APPLICABLE LAW AND DISPUTES
+
+This EULA shall be governed by the laws of Finland, excluding its choice of law provisions.
+
+Any dispute, controversy or claim arising out of or relating to this EULA that cannot be settled amicably between You and Licensor, shall be settled in the District Court of Helsinki as the first instance.
+
+11 AMENDMENTS
+
+Licensor may revise the terms of this EULA at any time and such revised terms and conditions shall apply as from the date notified by Licensor in connection with the revision. Usually the revised terms and conditions are distributed with a new release or version of the Software and become applicable when You download and install that release or version.

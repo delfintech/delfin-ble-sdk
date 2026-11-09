@@ -1,0 +1,57 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Delfin.Ble.AvaloniaDemo.MainWindow"
+        Title="Delfin BLE SDK"
+        Width="900" Height="700"
+        WindowStartupLocation="CenterScreen">
+
+    <DockPanel Margin="10">
+
+        <!-- Top: Connection Settings -->
+        <Border DockPanel.Dock="Top" BorderBrush="Gray" BorderThickness="0,0,0,1" Padding="0,0,0,10" Margin="0,0,0,10">
+            <Grid ColumnDefinitions="Auto,*,20,Auto,*" RowDefinitions="Auto,Auto,Auto">
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Port:" VerticalAlignment="Center" Margin="0,0,8,6" />
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="TxtPort" Watermark="auto-detect" Margin="0,0,0,6" />
+
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Devices:" VerticalAlignment="Center" Margin="0,0,8,6" />
+                <TextBox Grid.Row="0" Grid.Column="4" x:Name="TxtDevices" Text="DCC1423" Watermark="VX10001, DCC1423" Margin="0,0,0,6" />
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Sensors:" VerticalAlignment="Center" Margin="0,0,8,6" />
+                <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" x:Name="TxtSensors" Watermark="C7:96:9A:4A:A5:1F (optional)" Margin="0,0,0,6" />
+
+                <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Orientation="Horizontal" Spacing="10">
+                    <Button x:Name="BtnConnect" Content="Connect" Width="100" />
+                    <Button x:Name="BtnDisconnect" Content="Disconnect" Width="100" IsEnabled="False" />
+                    <TextBlock x:Name="LblStatus" Text="Not connected" VerticalAlignment="Center" Foreground="Gray" />
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+        <!-- Device status indicators -->
+        <WrapPanel DockPanel.Dock="Top" x:Name="PnlDevices" Margin="0,0,0,10" />
+
+        <!-- Bottom: Log -->
+        <Border DockPanel.Dock="Bottom" Height="150" Margin="0,10,0,0">
+            <ListBox x:Name="LstLog" FontFamily="JetBrains Mono, Menlo, Consolas, monospace" FontSize="11" />
+        </Border>
+
+        <!-- Middle: Measurements DataGrid -->
+        <DataGrid x:Name="GridMeasurements"
+                  IsReadOnly="True"
+                  CanUserResizeColumns="True"
+                  GridLinesVisibility="Horizontal"
+                  HeadersVisibility="Column"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Time" Binding="{Binding Time}" Width="90" />
+                <DataGridTextColumn Header="Device" Binding="{Binding Device}" Width="120" />
+                <DataGridTextColumn Header="Parameter" Binding="{Binding Parameter}" Width="*" />
+                <DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="100" />
+                <DataGridTextColumn Header="Unit" Binding="{Binding Unit}" Width="80" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </DockPanel>
+</Window>
