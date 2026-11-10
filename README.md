@@ -488,13 +488,19 @@ For development without hardware, a simulator is included. It acts as a fake Ble
 
 `socat` is the cross-platform equivalent of com0com. It creates a pair of linked pseudo-terminals (PTYs).
 
-1. **Install socat:**
+1. **Install socat.** On macOS:
    ```bash
-   brew install socat      # macOS
-   sudo apt install socat  # Linux (Debian/Ubuntu)
+   brew install socat
+   ```
+   On Linux (Debian/Ubuntu):
+   ```bash
+   sudo apt install socat
    ```
 
-2. **Create the virtual port pair** using the helper script (leave it running):
+2. **Create the virtual port pair** using the helper script (leave it running). Unzipping may drop the executable bit, so set it once:
+   ```bash
+   chmod +x tools/socat-loopback.sh
+   ```
    ```bash
    ./tools/socat-loopback.sh
    ```
@@ -502,9 +508,10 @@ For development without hardware, a simulator is included. It acts as a fake Ble
 
 3. **Run the simulator and your app** in two more terminals:
    ```bash
-   dotnet run --project src/Delfin.Ble.SimulatorDemo -- /tmp/delfin_sim VX10001 DCC1423
+   dotnet tools/Delfin.Ble.SimulatorDemo.dll /tmp/delfin_sim VX10001 DCC1423
    dotnet run --project src/Delfin.Ble.Demo -- /tmp/delfin_app VX10001 DCC1423
    ```
+   `tools/Delfin.Ble.SimulatorDemo.exe` is the Windows launcher only. On macOS/Linux always start the simulator with `dotnet` and the `.dll`, as shown.
 
 The Avalonia GUI demo also works with the simulator — enter `/tmp/delfin_app` in the Port field.
 
